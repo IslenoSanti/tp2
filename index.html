@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>turnos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <header>
+        <p>Bienvenido</p>
+    </header>
+    <nav>
+        Aqui podra solicitar un turno
+    </nav>
+    <section>
+        <form action="">
+        <table>
+            <tr>
+                <td>Turno para:</td>
+                <td><input type="radio">Adulto</td>
+                <td><input type="radio">Menor</td>
+            </tr>
+            <tr>
+                <td>Sexo:</td>
+                <td><input type="radio">Hombre</td>
+                <td><input type="radio">Mujer</td>
+            </tr>
+            <tr>
+                <td><label for="nombre">Nombre</label></td>
+                <td><input type="text" name="nombre" id="nombre"></td>
+            </tr>
+            <tr>
+                <td><label for="edad">Edad</label></td>
+                <td><input type="number" name="edad" id="edad" required></td>
+            </tr>
+            <tr>
+                <td><label for="dni">DNI</label></td>
+                <td><input type="number" name="dni" id="dni" required></td>
+            </tr>
+            <tr>
+                <td><label for="cont">Contacto</label></td>
+                <td><input type="text" name="cont" id="cont" required></td>
+            </tr>
+            <tr>
+                <td><label for="fc">Fecha</label></td>
+                <td><input type="date" name="fc" id="fc" required></td>
+            </tr>
+            <tr><td><input type="submit" value="enviar" id="submitBtn"></td></tr>
+        </table>
+        </form>
+    </section>
+    
+    
+   <footer>
+    <img class="pp" src="assets/cruz roja.png" alt="100" height="100">
+   </footer>
+   
+   
+   
+   
+    <table id="tabla">
+        <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>DNI</th>
+            <th>Contacto</th>
+            <th>Fecha</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+    </table>
+
+    <script src="assets/java/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+
+body{
+    background-color: ivory;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    background-color: lawngreen;
+    position: relative;
+    top: 80px;
+}
+section{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 80px;
+}
+
+nav{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 80px;
+}
+
+footer{
+    position: relative;
+   top: -320px;
+   text-align: center; 
+}
+th{
+    border: 3px solid black
+}
